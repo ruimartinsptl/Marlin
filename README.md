@@ -1,3 +1,12 @@
+# My Notes
+* https://www.instructables.com/id/How-to-Program-a-3D-Printer-With-Marlin-and-Arduin/
+* https://docs.platformio.org/en/latest/ide/vscode.html#quick-start
+* https://reprap.org/wiki/Heatbeds_-_A_beginner%27s_guide
+* http://marlinfw.org/docs/configuration/configuration.html
+* https://hackaday.com/2016/07/06/build-a-3d-printer-workhorse/
+* https://www.youtube.com/watch?v=7VHwcEroHPk
+* https://www.youtube.com/watch?v=H41hIXdB6js
+
 # Marlin 3D Printer Firmware
 <img align="right" src="../../raw/1.1.x/buildroot/share/pixmaps/logo/marlin-250.png" />
 

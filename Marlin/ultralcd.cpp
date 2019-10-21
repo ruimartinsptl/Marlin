@@ -177,7 +177,10 @@ uint16_t max_display_update_time = 0;
   void lcd_move_menu();
   void lcd_control_menu();
   void lcd_control_temperature_menu();
+  void lcd_control_temperature_preheat_material1_settings_menu();
+  void lcd_control_temperature_preheat_material2_settings_menu();
   void lcd_control_motion_menu();
+  void lcd_control_filament_menu();
 
   #if DISABLED(SLIM_LCD_MENUS)
     void lcd_control_temperature_preheat_material1_settings_menu();
