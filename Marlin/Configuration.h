@@ -558,14 +558,14 @@
  *          TMC5130, TMC5130_STANDALONE
  * :['A4988', 'DRV8825', 'LV8729', 'L6470', 'TB6560', 'TB6600', 'TMC2100', 'TMC2130', 'TMC2130_STANDALONE', 'TMC2208', 'TMC2208_STANDALONE', 'TMC26X', 'TMC26X_STANDALONE', 'TMC2660', 'TMC2660_STANDALONE', 'TMC5130', 'TMC5130_STANDALONE']
  */
-#define X_DRIVER_TYPE  A4988 # TODO: This is wrong
-#define Y_DRIVER_TYPE  A4988 # TODO: This is wrong
-#define Z_DRIVER_TYPE  A4988 # TODO: This is wrong
+#define X_DRIVER_TYPE  A4988 // TODO: This is wrong
+#define Y_DRIVER_TYPE  A4988 // TODO: This is wrong
+#define Z_DRIVER_TYPE  A4988 // TODO: This is wrong
 //#define X2_DRIVER_TYPE A4988
 //#define Y2_DRIVER_TYPE A4988
 //#define Z2_DRIVER_TYPE A4988
-#define E0_DRIVER_TYPE A4988 # TODO: This is wrong
-#define E1_DRIVER_TYPE A4988 # TODO: This is wrong
+#define E0_DRIVER_TYPE A4988 // TODO: This is wrong
+#define E1_DRIVER_TYPE A4988 // TODO: This is wrong
 //#define E2_DRIVER_TYPE A4988
 //#define E3_DRIVER_TYPE A4988
 //#define E4_DRIVER_TYPE A4988
@@ -888,12 +888,12 @@
 #define Y_BED_SIZE 200
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS -48
+#define X_MIN_POS -25
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 200
+#define Z_MAX_POS 180
 
 /**
  * Software Endstops
