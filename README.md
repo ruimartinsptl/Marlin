@@ -1,4 +1,12 @@
 # My Notes
+
+## Sync Git:
+* https://stackoverflow.com/questions/15779740/how-to-update-my-fork-to-have-the-same-branches-and-tags-as-the-original-reposit
+  * `remote=origin ; for brname in `git branch -r | grep origin | grep -v master | grep -v HEAD | sed -e 's/.*\///g'`; do git branch --track $brname  $remote/$brname ; done`
+  * `git pull --rebase --all`
+
+## Links:
+
 * https://www.instructables.com/id/How-to-Program-a-3D-Printer-With-Marlin-and-Arduin/
 * https://docs.platformio.org/en/latest/ide/vscode.html#quick-start
 * https://reprap.org/wiki/Heatbeds_-_A_beginner%27s_guide
